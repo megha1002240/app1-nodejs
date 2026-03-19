@@ -1,3 +1,6 @@
 @Library('shared-lib') _
 
-pipeline()
+cicdPipeline(
+    repo: 'https://github.com/megha1002240/app1-nodejs.git',
+    image: 'meghapatil56285/app-nodejs:latest'
+)
